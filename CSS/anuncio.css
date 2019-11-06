@@ -1,0 +1,100 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
+  /*START HEADER*/
+header{
+  background-color: #383737;
+  width: 100%;
+  height: 100px;
+  display: inline-block;
+  justify-content: center;
+}
+#encabezado-img{
+  height: 40px;
+  margin-left: 10%;
+  padding-top: 30px;
+}
+header nav{
+  float: right;
+  margin-right: 10%;
+  padding-top: 35px;
+  font-size: 20px;
+}
+header nav a{
+  padding-right: 10px;
+  height: 10px;
+  color: white;
+  text-decoration: none;
+}
+header nav a:hover{
+  color: #71B100;
+}
+  /*FINISH HEADER*/
+  /*START SECTION*/
+section h1{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-weight: 400;
+}
+section #banner-section{
+  width: 100%;
+}
+#descripcion-div{
+  margin-left: 20%;
+  line-height: 2;
+  font-weight: 700;
+}
+#contenedor{
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#price-div{
+  font-size: 18px;
+  font-weight: 900;
+  color: #71B100;
+}
+#comodidades-div{
+  padding-right: 60px;
+}
+#comodidades-div .comodidades-img{
+  height: 35px;
+  padding-left: 70px;
+}
+#comodidades-div .comodidades-span{
+  padding-left: 10px;
+}
+  /*FINISH SECTION*/
+  /*START FOOTER*/
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  height: 90px;
+  width: 100%;
+  background-color: #464545;
+}
+footer nav{
+  margin-left: 10%;
+}  
+footer nav a{
+  height: 10px;
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+footer nav a:hover{
+  color: #71B100;
+}
+footer p{
+  color: white;
+  margin-right: 10%;
+}  
+  /*FINISH FOOTER*/

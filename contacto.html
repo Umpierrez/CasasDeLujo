@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/contacto.css" type="text/css">
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header>
+      <a href="Index.html">
+      <img id="encabezado-img" src="img/logo.svg">
+      </a>
+      <nav>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="Anuncios.html">Anuncios</a>
+        <a href="blog.html">Blog</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </header>
+
+    <section id="first-section">
+      <h1>Contacto</h1>
+      <img src="img/destacada3.jpg" alt="">
+    </section>
+
+    <section id="section-form">
+      <h2>Llenar el formulario de contacto</h2>
+      <form>
+        <fieldset>
+          <legend>Informacion Personal</legend>
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" placeholder="Tu Nombre">
+
+          <label for="correo">E-mail</label>
+          <input type="email" id="correo" placeholder="Tu E-mail">
+
+          <label for="telefono">Telefono</label>
+          <input type="tel" id="telefono" placeholder="Tu Telefono">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje"></textarea>
+        </fieldset>
+
+        <fieldset>
+          <legend>Informacion sobre propiedad</legend>
+          <label for="">Vende o Compra:</label>
+          <select id="opciones">
+            <option value="" disabled selected>---Seleccione---</option>
+            <option value="Compra">Compra</option>
+            <option value="Vendra">Vende</option>
+          </select>
+          <label>presupuesto</label>
+          <input type="text">
+        </fieldset>
+
+        <fieldset>
+            <legend>Contacto</legend>
+            <label>Como desea ser contactado:</label>
+            <label for="telefono-contactar">Telefono</label>
+            <input type="radio" id="telefono-contactar" name="radio-btn-contacto">
+            <label for="correo-contactar">Correo</label>
+            <input type="radio" id="correo-contactar" name="radio-btn-contacto">
+            <p>Si eligio telefono, eliga fecha y hora</p>
+            <label for="Fecha">Fecha:</label>
+            <input type="date" id="Fecha">
+            <label for="Hora">Hora:</label>
+            <input type="time" id="Hora" min="09:00" max="18:00">
+        </fieldset>
+        <button id="btn-enviar" type="submit">Enviar</button>
+      </form>
+
+    </section>
+    <footer>
+        <nav>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="Anuncios.html">Anuncios</a>
+            <a href="blog.html">Blog</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+        <p>
+            Todos los Derechos Reservados &copy;
+        </p>        
+    </footer>
+  </body>
+</html>
